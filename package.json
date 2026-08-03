@@ -2,14 +2,7 @@
   "name": "maasa-tax-tracker",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "lucide-react": "^0.263.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "mkdir -p dist && cp index.html dist/ && cp -r * dist/ 2>/dev/null || true"
   }
 }
